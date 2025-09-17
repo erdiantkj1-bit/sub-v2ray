@@ -1,0 +1,8 @@
+name = "sub-v2ray"
+main = "src/worker.ts"
+compatibility_date = "2024-05-29"
+compatibility_flags = ["nodejs_compat"]
+
+kv_namespaces = [
+  { binding = "settings", id = "b70c558f86b4469fa82a56537c9c0359" }
+]
